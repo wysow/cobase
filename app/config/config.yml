@@ -123,3 +123,14 @@ fos_oauth_server:
             #access_token_lifetime: 3600
             #refresh_token_lifetime: 1209600
             #auth_code_lifetime: 30
+
+sensio_framework_extra:
+    view:
+        annotations: false
+
+fos_rest:
+    param_fetcher_listener: true
+    body_listener: true
+    format_listener: true
+    view:
+        view_response_listener: 'force'
