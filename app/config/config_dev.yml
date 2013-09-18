@@ -24,3 +24,10 @@ assetic:
 
 #swiftmailer:
 #    delivery_address: me@example.com
+
+fos_oauth_server:
+    service:
+        options:
+            access_token_lifetime: 3600
+            refresh_token_lifetime: 1209600
+            auth_code_lifetime: 3600

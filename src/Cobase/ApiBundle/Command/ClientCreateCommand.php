@@ -20,7 +20,7 @@ class ClientCreateCommand extends ContainerAwareCommand
             ->addOption('redirect-uri', null, InputOption::VALUE_REQUIRED | InputOption::VALUE_IS_ARRAY, 'Sets redirect uri for client. Use this option multiple times to set multiple redirect URIs.', null)
             ->addOption('grant-type', null, InputOption::VALUE_REQUIRED | InputOption::VALUE_IS_ARRAY, 'Sets allowed grant type for client. Use this option multiple times to set multiple grant types..', null)
             ->setHelp(<<<EOT
-The <info>%command.name%</info>command creates a new client.
+The <info>%command.name%</info> command creates a new client.
 
   <info>php %command.full_name% [--redirect-uri=...] [--grant-type=...] name</info>
 
